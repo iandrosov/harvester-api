@@ -6,7 +6,7 @@ info:
     \ this API [here](https://github.com/iandrosov/harvester-api)\n"
   version: "1.0.0"
   title: "Harvester Heroku API"
-host: "https://harvester-api-dev.herokuapp.com"
+host: "http://harvester-api-dev.herokuapp.com:80"
 basePath: "/api"
 schemes:
 - "http"
