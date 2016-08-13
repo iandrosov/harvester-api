@@ -97,22 +97,35 @@ exports.quotaGET = function(args, res, next) {
   **/
     var examples = {};
   examples['application/json'] = {
-  "data" : [ {
+  "data" : [ 
+   {
+    "id": 32,
+    "quota": "2",
+    "canein": 100,
+    "trucksin": 10,
+    "trucksremaining": 5,
+    "datetimeupdated": "2016-06-25 09:37:04",
+    "maingrowerid": "A901",
+    "reason": "8",
+    "status": "Adjust",
+    "quota_change": 8
+  },
+  {
     "canein" : 123,
     "trucksremaining" : 123,
-    "reason" : "Test",
+    "reason" : null,
     "trucksin" : 123,
-    "quota_change" : 20,
-    "datetimeupdated" : "2000-01-23T04:56:07.000+00:00",
+    "quota_change" : null,
+    "datetimeupdated" : "2016-08-13 15:09:25",
     "quota" : "25",
     "id" : 123,
     "maingrowerid" : "A901",
-    "status" : "success"
+    "status" : null
   } ],
   "almaestimate" : 123,
-  "published_at" : "2000-01-23T04:56:07.000+00:00",
+  "published_at" : "2016-08-13 15:09:25",
   "growerid" : "A901",
-  "status" : "success"
+  "status" : "Success"
 };
   if(Object.keys(examples).length > 0) {
     res.setHeader('Content-Type', 'application/json');
