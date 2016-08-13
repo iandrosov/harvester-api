@@ -100,19 +100,19 @@ exports.quotaGET = function(args, res, next) {
   "data" : [ {
     "canein" : 123,
     "trucksremaining" : 123,
-    "reason" : "aeiou",
+    "reason" : "Test",
     "trucksin" : 123,
-    "quota_change" : 123,
+    "quota_change" : 20,
     "datetimeupdated" : "2000-01-23T04:56:07.000+00:00",
-    "quota" : "aeiou",
+    "quota" : "25",
     "id" : 123,
-    "maingrowerid" : "aeiou",
-    "status" : "aeiou"
+    "maingrowerid" : "A901",
+    "status" : "success"
   } ],
   "almaestimate" : 123,
   "published_at" : "2000-01-23T04:56:07.000+00:00",
-  "growerid" : "aeiou",
-  "status" : "aeiou"
+  "growerid" : "A901",
+  "status" : "success"
 };
   if(Object.keys(examples).length > 0) {
     res.setHeader('Content-Type', 'application/json');
