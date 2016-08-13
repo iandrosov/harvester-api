@@ -7,9 +7,9 @@ exports.authorizeGET = function(args, res, next) {
   **/
     var examples = {};
   examples['application/json'] = {
-  "apikey" : "aeiou",
-  "growerid" : "aeiou",
-  "status" : "aeiou"
+  "apikey" : "aeiou1287236q00100",
+  "growerid" : "A901",
+  "status" : "Success"
 };
   if(Object.keys(examples).length > 0) {
     res.setHeader('Content-Type', 'application/json');
@@ -30,9 +30,9 @@ exports.authorizePUT = function(args, res, next) {
   **/
     var examples = {};
   examples['application/json'] = {
-  "apikey" : "aeiou",
-  "growerid" : "aeiou",
-  "status" : "aeiou"
+  "apikey" : "aeiou1287236q00100",
+  "growerid" : "A901",
+  "status" : "Success"
 };
   if(Object.keys(examples).length > 0) {
     res.setHeader('Content-Type', 'application/json');
