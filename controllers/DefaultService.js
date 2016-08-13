@@ -7,7 +7,7 @@ exports.authorizeGET = function(args, res, next) {
   **/
     var examples = {};
   examples['application/json'] = {
-  "apikey" : "aeiou1287236q00100",
+  "apikey" : "d548309147fb791b9f3d4d831468a706",
   "growerid" : "A901",
   "status" : "Success"
 };
@@ -30,7 +30,7 @@ exports.authorizePUT = function(args, res, next) {
   **/
     var examples = {};
   examples['application/json'] = {
-  "apikey" : "aeiou1287236q00100",
+  "apikey" : "d548309147fb791b9f3d4d831468a706",
   "growerid" : "A901",
   "status" : "Success"
 };
