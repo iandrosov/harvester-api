@@ -54,7 +54,7 @@ exports.devicePOST = function(args, res, next) {
   "samplenotificationflag" : "aeiou",
   "pubreporturl" : "aeiou",
   "intouchurl" : "aeiou",
-  "published_at" : "2000-01-23T04:56:07.000+00:00",
+  "published_at" : "2019-11-18T04:56:07.000+00:00",
   "growerid" : "aeiou",
   "status" : "aeiou"
 };
@@ -104,7 +104,7 @@ exports.quotaGET = function(args, res, next) {
     "canein": 100,
     "trucksin": 10,
     "trucksremaining": 5,
-    "datetimeupdated": "2016-06-25 09:37:04",
+    "datetimeupdated": "2019-11-19 09:37:04",
     "maingrowerid": "A901",
     "reason": "8",
     "status": "Adjust",
@@ -116,14 +116,14 @@ exports.quotaGET = function(args, res, next) {
     "reason" : null,
     "trucksin" : 123,
     "quota_change" : null,
-    "datetimeupdated" : "2016-08-13 15:09:25",
+    "datetimeupdated" : "2019-11-20 15:09:25",
     "quota" : "25",
     "id" : 123,
     "maingrowerid" : "A901",
     "status" : null
   } ],
   "almaestimate" : 123,
-  "published_at" : "2016-08-13 15:09:25",
+  "published_at" : "2019-11-19 15:09:25",
   "growerid" : "A901",
   "status" : "Success"
 };
@@ -149,7 +149,7 @@ exports.quotaIdGET = function(args, res, next) {
   "reason" : "aeiou",
   "trucksin" : 123,
   "quota_change" : 123,
-  "datetimeupdated" : "2000-01-23T04:56:07.000+00:00",
+  "datetimeupdated" : "2019-11-18T04:56:07.000+00:00",
   "quota" : "aeiou",
   "id" : 123,
   "maingrowerid" : "aeiou",
@@ -178,14 +178,14 @@ exports.quotaPOST = function(args, res, next) {
     "reason" : "aeiou",
     "trucksin" : 123,
     "quota_change" : 123,
-    "datetimeupdated" : "2000-01-23T04:56:07.000+00:00",
+    "datetimeupdated" : "2019-11-18T04:56:07.000+00:00",
     "quota" : "aeiou",
     "id" : 123,
     "maingrowerid" : "aeiou",
     "status" : "aeiou"
   } ],
   "almaestimate" : 123,
-  "published_at" : "2000-01-23T04:56:07.000+00:00",
+  "published_at" : "2019-11-20T04:56:07.000+00:00",
   "growerid" : "aeiou",
   "status" : "aeiou"
 };
@@ -217,7 +217,7 @@ exports.sampledataGET = function(args, res, next) {
     "maingrowerid" : "aeiou",
     "mlmud" : 1.3579000000000001069366817318950779736042022705078125,
     "canepol" : 1.3579000000000001069366817318950779736042022705078125,
-    "sampledate" : "2000-01-23T04:56:07.000+00:00",
+    "sampledate" : "2019-11-20T04:56:07.000+00:00",
     "canebrix" : 1.3579000000000001069366817318950779736042022705078125,
     "canefibrq" : 1.3579000000000001069366817318950779736042022705078125,
     "labtrs" : 1.3579000000000001069366817318950779736042022705078125,
@@ -240,7 +240,7 @@ exports.sampledataGET = function(args, res, next) {
     "acct" : "aeiou"
   } ] ],
   "diff" : "",
-  "published_at" : "2000-01-23T04:56:07.000+00:00",
+  "published_at" : "2019-11-20T04:56:07.000+00:00",
   "growerid" : "aeiou",
   "status" : "aeiou",
   "groweraverage" : {
@@ -275,7 +275,7 @@ exports.settingsGET = function(args, res, next) {
   "samplenotificationflag" : "aeiou",
   "pubreporturl" : "aeiou",
   "intouchurl" : "aeiou",
-  "published_at" : "2000-01-23T04:56:07.000+00:00",
+  "published_at" : "2019-11-20T04:56:07.000+00:00",
   "growerid" : "aeiou",
   "status" : "aeiou"
 };
@@ -298,7 +298,7 @@ exports.surveyGET = function(args, res, next) {
     var examples = {};
   examples['application/json'] = {
   "data" : [ {
-    "date" : "2000-01-23T04:56:07.000+00:00",
+    "date" : "2019-11-20T04:56:07.000+00:00",
     "lessharvestacres" : 1.3579000000000001069366817318950779736042022705078125,
     "totaltonacre" : 1.3579000000000001069366817318950779736042022705078125,
     "total" : 1.3579000000000001069366817318950779736042022705078125,

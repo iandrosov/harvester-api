@@ -45,7 +45,7 @@ function quotaCollectionTransform(eq) {
   return {
     data : eq.map(quotaTransform),
     almaestimate : 123,
-    published_at : "2016-08-13 15:09:25",
+    published_at : "2019-11-18 15:09:25",
     growerid : "A901",
     status : "Success"
   };
@@ -134,7 +134,7 @@ exports.quotaIdGET = function(args, res, next) {
   "reason" : "aeiou",
   "trucksin" : 123,
   "quota_change" : 123,
-  "datetimeupdated" : "2000-01-23T04:56:07.000+00:00",
+  "datetimeupdated" : "2019-11-18T04:56:07.000+00:00",
   "quota" : "aeiou",
   "id" : 123,
   "maingrowerid" : "aeiou",
@@ -163,14 +163,14 @@ exports.quotaPOST = function(args, res, next) {
     "reason" : "aeiou",
     "trucksin" : 123,
     "quota_change" : 123,
-    "datetimeupdated" : "2000-01-23T04:56:07.000+00:00",
+    "datetimeupdated" : "2019-11-18T04:56:07.000+00:00",
     "quota" : "aeiou",
     "id" : 123,
     "maingrowerid" : "aeiou",
     "status" : "aeiou"
   } ],
   "almaestimate" : 123,
-  "published_at" : "2000-01-23T04:56:07.000+00:00",
+  "published_at" : "2019-11-18T04:56:07.000+00:00",
   "growerid" : "aeiou",
   "status" : "aeiou"
 };
