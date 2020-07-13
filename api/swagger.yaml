@@ -5,7 +5,7 @@ info:
     \ try all HTTP operation described in this Swagger spec.\n\nFind source code of\
     \ this API [here](https://github.com/iandrosov/harvester-api)\n"
   version: "1.0.0"
-  title: "Harvester Heroku API"
+  title: "Harvester API powered by Heroku"
 host: "harvester-api-dev.herokuapp.com"
 basePath: "/api"
 schemes:
